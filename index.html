@@ -3,105 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio – Power BI Weather Dashboard</title>
+    <title>Danton Coote – Data Science Portfolio</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            text-align: center;
-            background-color: #f8f9fa;
+            padding: 40px;
+            background-color: #f4f6f8;
+            color: #333;
         }
 
         h1 {
-            color: #333;
-            margin-bottom: 10px;
+            text-align: center;
         }
 
-        h2 {
-            color: #444;
-            margin-top: 30px;
-        }
-
-        p {
+        .projects {
             max-width: 800px;
-            margin: 10px auto;
-            color: #555;
-            line-height: 1.6;
+            margin: 40px auto;
         }
 
-        .dashboard-container {
-            width: 100%;
-            max-width: 1000px;
-            margin: 30px auto;
-            padding: 30px;
-            background-color: #ffffff;
+        .project {
+            background: white;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-        }
-
-        .powerbi-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 14px 24px;
-            background-color: #0078D4;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background-color 0.2s ease-in-out;
-        }
-
-        .powerbi-link:hover {
-            background-color: #005A9E;
-        }
-
-        .note {
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 15px;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
         }
 
         a {
             color: #0078D4;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Manitoba Weather Dashboard</h1>
-    <p>
-        Portfolio project demonstrating data analysis and visualization using
-        Microsoft Power BI.
+    <h1>Danton Coote</h1>
+    <p style="text-align:center;">
+        Data Science & Analytics Portfolio
     </p>
 
-    <div class="dashboard-container">
-        <h2>Interactive Power BI Report</h2>
-
-        <p>
-            This dashboard analyzes historical Manitoba weather data and includes
-            interactive slicers, trend visualizations, and station-level filtering.
-            Due to Power BI’s security and authentication requirements, the interactive
-            version is hosted directly within the Power BI service.
-        </p>
-
-        <a
-            href="https://app.powerbi.com/reportEmbed?reportId=e09fe9e5-99b7-43ce-9d79-761152bc3eb7&autoAuth=true&ctid=86fa9b45-7aa3-4070-8a54-edcef436bd44"
-            target="_blank"
-            class="powerbi-link">
-            🔗 View Interactive Dashboard in Power BI
-        </a>
-
-        <p class="note">
-            *Power BI login may be required depending on access permissions.*
-        </p>
+    <div class="projects">
+        <div class="project">
+            <h2>Manitoba Weather Dashboard</h2>
+            <p>
+                Interactive data visualization project built using Power BI to analyze
+                historical weather trends in Manitoba.
+            </p>
+            <a href="weather.html">View Project →</a>
+        </div>
     </div>
-
-    <p>
-        <a href="index.html">← Back to Portfolio Homepage</a>
-    </p>
 
 </body>
 </html>
