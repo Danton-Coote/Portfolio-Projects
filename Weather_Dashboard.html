@@ -1,52 +1,107 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio: Power BI Project</title>
+    <title>My Portfolio – Power BI Weather Dashboard</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
             text-align: center;
+            background-color: #f8f9fa;
         }
+
         h1 {
             color: #333;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
+
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+
+        p {
+            max-width: 800px;
+            margin: 10px auto;
+            color: #555;
+            line-height: 1.6;
+        }
+
         .dashboard-container {
             width: 100%;
-            max-width: 1200px; /* Max width for large screens */
-            margin: 0 auto;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
         }
-        iframe {
-            border: 1px solid #ccc;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+        .powerbi-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 24px;
+            background-color: #0078D4;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .powerbi-link:hover {
+            background-color: #005A9E;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 15px;
+        }
+
+        a {
+            color: #0078D4;
         }
     </style>
 </head>
+
 <body>
-    <h1>Interactive Manitoba Weather Dashboard</h1>
-    <p>This is a live, embedded Power BI report. Feel free to interact with the slicers and visuals.</p>
+
+    <h1>Manitoba Weather Dashboard</h1>
+    <p>
+        Portfolio project demonstrating data analysis and visualization using
+        Microsoft Power BI.
+    </p>
 
     <div class="dashboard-container">
-        <h2>Interactive Manitoba Weather Dashboard (Power BI)</h2>
-    
+        <h2>Interactive Power BI Report</h2>
+
         <p>
-            This dashboard was built in Power BI and includes interactive slicers,
-            trend analysis, and station-level filtering. Due to Power BI’s security
-            requirements, the interactive version opens directly in Power BI.
+            This dashboard analyzes historical Manitoba weather data and includes
+            interactive slicers, trend visualizations, and station-level filtering.
+            Due to Power BI’s security and authentication requirements, the interactive
+            version is hosted directly within the Power BI service.
         </p>
-    
-        <a 
+
+        <a
             href="https://app.powerbi.com/groups/me/reports/e09fe9e5-99b7-43ce-9d79-761152bc3eb7"
             target="_blank"
             class="powerbi-link">
             🔗 View Interactive Dashboard in Power BI
         </a>
+
+        <p class="note">
+            *Power BI login may be required depending on access permissions.*
+        </p>
     </div>
-    
-    <p><a href="index.html">Back to Portfolio Homepage</a></p>
+
+    <p>
+        <a href="index.html">← Back to Portfolio Homepage</a>
+    </p>
 
 </body>
 </html>
